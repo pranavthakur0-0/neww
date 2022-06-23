@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.main-container-about
+{
+    background: linear-gradient(rgba(21, 21, 21, 0.5), rgba(21, 21, 21, 0.5)),
+    url(./images/about-main.png);
+    height: 100vh ; 
+    width: 100vw;
+}
+
+.home-main-about-how-we-work
+{
+    height: 140vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.home-main-about-how-we-work-section-one
+{
+    display: flex;
+    align-self: flex-end;
+    background-image: url(http://askproject.net/cynex/wp-content/uploads/sites/28/2021/09/young-programmer-troubleshooting-network-system-53REZ5N.jpg);
+    height: 80%;
+    background-size: cover;
+    background-position: bottom;
+    width: 40%;
+    z-index: 1;
+}
+
+.home-main-about-how-we-work-section-two
+{
+    height: 90%;
+    width: 40%;
+    padding: 5vh;
+}
+
+.home-how-we-work-section-heading
+{
+    height: 25vh;
+    width: 80vw;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    right: 15vh;
+    font-size: 10rem;
+    position: relative;
+    top: -11vh;
+    -webkit-text-stroke: 0.6vh rgba(128, 128, 128, 0.791);
+}
+
+.home-main-about-section-one-heading-text-new
+{
+    height: 15vh;
+    max-width: 75%;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+
+.home-main-about-section-one-heading-title-back
+{
+    position: relative;
+    width: 50vw;
+    height: 10vh;
+    -webkit-text-stroke: 0.6vh rgba(128, 128, 128, 0.791);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    right: 15vh;
+    font-size: 10rem;
+    position: relative;
+    top: -21vh;
+    color: transparent !important;
+}
+
+.home-how-we-work-section-title
+{
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 2rem; 
+    padding: 3vh 2vh 1.5vh 0vh;
+}
+.home-how-we-work-section-text
+{
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 1rem; 
+    line-height: 25px;
+    letter-spacing: 0.03rem;
+    word-spacing: 0.05rem;
+    padding: 0vh 2vh 4vh 0vh;
+}
+.home-how-we-work-section-step
+{
+    height: 17vh;
+    width: 100%;
+    display: flex;
+    margin: 2vh 0vh 2vh 0vh;
+}
+
+
+.home-how-we-work-section-step-icon
+{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+.home-how-we-work-section-step-icon-text
+{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+.home-how-we-work-section-step-icon-font
+{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.home-how-we-work-section-step-text-wrapper
+{
+    height: 130px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background: linear-gradient(-45deg, #000b82, #00d3f8, #20005c, #0bbaff );
+
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    transition: 0.4s ease-in-out;
+}
+
+
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.home-how-we-work-section-step-text-wrapper:hover
+{
+    background: rgb(119, 128, 255);
+    transition: 0.3s linear;
+}
+
+
+.home-how-we-work-section-step-text
+{
+    height: 128px;
+    width: 288px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+.home-how-we-work-section-step-text-heading
+{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 0vh 4% 2vh 4%;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.home-how-we-work-section-step-text-detail
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    padding: 1% 5% 1% 5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.main-container-our-mission
+{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 5vh 5vh 10vh 20vh;
+    justify-content: space-around;
+}
+
+.main-container-our-mission-heading
+{
+    position: relative;
+    height: 20vh;
+    width: 90%;
+    font-size: 8rem;
+    font-weight: 500;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    -webkit-text-stroke: 0.3vh rgb(255, 255, 255);
+}
+
+.main-container-our-mission-text-wrapper
+{
+    height: 10vh;
+    width: 80%;
+    display: flex;
+}
+
+.main-container-our-mission-text
+{
+    padding-right: 10vh;
+    height: 100%;
+    width: 80%;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.7rem;
+    letter-spacing: 0.13rem;
+    font-weight: 400;
+    
+}
+
+
+
+
+
+.main-container-our-values-heading
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20vh;
+    height: fit-content;
+    width: 100%;
+    font-size: 8rem;
+    font-weight: 500;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    -webkit-text-stroke: 0.3vh rgb(255, 255, 255);
+}
+.main-container-our-values-text-wrapper
+{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.main-container-our-values-text
+{
+ 
+    height: fit-content;
+    width: 70%;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.color-blue-text-outline
+{
+  width: fit-content;
+  height: fit-content;
+  display: inline-block;
+  -webkit-text-stroke: 0.2vh #246dff;
+  color: black;
+}

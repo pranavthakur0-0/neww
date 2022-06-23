@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.main-footer-container
+{
+    height: 90vh;
+    width: 100vw;
+}
+
+.main-footer-container-section-one
+{
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    height: 30%;
+    background: linear-gradient(to right, #001dd5 0%, #022689 100%);
+    padding: 2vw 10vw 2vw 10vw;
+    display: flex;
+}
+
+
+.main-footer-container-section-one-part1
+{
+    width: 60%;
+    height: 100%;
+    color: white;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+
+}
+.MdVerified
+{
+    width: 5vw;
+    padding-left: 1vw;
+}
+
+
+
+
+.main-footer-container-section-two
+{
+    height: 95%;
+  background-color: black;
+    
+}
+
+.inner-footer-section-space
+{
+    height: 10%;
+    width: 100%;
+}
+
+.inner-footer-section-one
+{
+    height: 65%;
+    width: 100%;
+    padding: 0vh 10vw 0vh 10vw;
+    display: flex;
+}
+
+.inner-footer-section-two
+{
+    height: 25%;
+    width: 100%;
+}
+
+.inner-footer-container-one
+{
+    width: 55%;
+    height: 100%;
+}
+
+.inner-footer-container-one-logo
+{
+    height: 15%;
+    width: 25%;
+    background-image: url(./images/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.inner-footer-container-one-contact
+{
+    height: 70%;
+    width: 100%;
+    padding: 5vh 0 0 0;
+}
+
+.inner-footer-container-one-text-wrapper
+{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fawhatsapp
+{
+    font-size: 2rem;
+    color: white;
+}
+
+
+
+
+.inner-footer-container-one-text
+{
+    height: 4vh;
+    width: 100%;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 200;
+}
+
+
+.inner-footer-container-two
+{
+    width: 40%;
+    height: 100%;
+    display: flex;
+}
+
+.inner-footer-container-two-part-one
+{
+    height: 100%;
+    width: 50%;
+}
+.inner-footer-container-two-part-two
+{
+    height: 100%;
+    width: 50%;
+}
+
+.footer-container-two-part-one-header
+{
+    height: 20%;
+    width: 100%;
+    font-size: 1.3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 3vw;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+
+}
+
+.inner-footer-container-two-part-one-space
+{
+    height: 10%;
+    width: 100%;
+}
+
+.footer-navlink
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-navlink-links
+{
+    height: 2.5vw;
+    width: 10vw;
+    display: flex;
+    color: #8a8a8a;
+    text-decoration: none;
+    padding-left: 3vw;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+
+
+.footer-navlink-links:hover
+{ 
+    color: white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.footer-services-wrapper
+{
+    height: 50%;
+    width: 100%;
+    padding-left: 3vw;
+    color: #8a8a8a;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+}
+
+.footer-services-wrapper-text
+{
+    height: 2.5vw;
+    font-weight: 400;
+}
+
+.inner-footer-section-two-line
+{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer-section-two-line-segment
+{
+    height: 1px;
+    width: 80%;
+    background-color: white;
+}
+
+.inner-footer-section-two-media-and-text
+{
+    height: 25%;
+    width: 100%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+}
+
+.inner-footer-section-two-companyname
+{
+    height: 100%;
+    width: 33.3%; 
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.inner-footer-section-two-policy
+{
+    height: 100%;
+    width: 33.3%;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding: 0 3vw 0 3vw;
+    justify-content: space-around;
+}
+.inner-footer-section-two-media-icons
+{
+    height: 100%;
+    width: 33.3%;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    justify-content: flex-end;
+}
+
+.media-icons-footer
+{
+    width: 4vw;
+}
+
+.media-icons-footer:hover
+{
+    transition: .3s ease-in-out;
+    transform: rotate(10deg) scale(1.1);
+    
+}
+
+
+.footer-container-one-text-wrapper
+{
+    width: 100%;
+    padding-left: 2%;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+.inner-footer-container-one-contact-section
+{
+    padding-left: 5vw;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.home-section-contact-icon
+{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.home-section-contact-text
+{
+    width: 100%;
+    padding-left: 1vw;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 200;
+    font-family: 'Barlow', sans-serif;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@800&display=swap');
+
+
+
+.div-home-main-container
+{
+    height: 100vh;
+    width: 100vw;
+    color: white;
+
+    background-color: black;
+}
+
+
+video
+{
+    margin: 5vh 0vh 0vh 40vh;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+
+
+.div-home-main-container-part-one
+{
+    position: absolute;
+    top: 0;
+    color: white;
+    opacity: 1 !important;
+    height: 100vh;
+    width: 100vw;
+    background: none;
+    text-align: center;
+}
+
+.home-main-part-one-title
+{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    padding-left: 10vw;
+    align-items: flex-end;
+}
+
+.home-main-part-one-title-part-one
+{
+    height: 7vh;
+    width: 1vh;
+    background-color: white;
+    
+
+
+}
+
+.home-main-part-one-title-part-two
+{
+    padding-left: 3vh;
+    display: flex;
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: 'Barlow', sans-serif;
+    align-items: flex-end;
+}
+
+
+.home-main-part-one-heading
+{
+    height: 20vh;
+    display: flex;
+    padding-left: 10vw;
+    align-items: center;
+    width: 100%;
+    font-size: 7rem;
+    font-family: 'Barlow', sans-serif;
+  
+}
+
+.home-main-about-section-one-heading-title
+{
+    height: 5vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-radius: 1vh;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+
+}
+
+
+.home-main-part-one-text
+{
+    height: 10vh;
+    width: 100%;
+    padding-left: 10vw;
+    font-size: 1.7rem;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 200;
+    text-align: left;
+    display: flex;
+}
+
+
+
+
+.home-main-part-one-button
+{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 10vw;
+    padding-bottom: 5vh;
+
+}
+.home-main-part-scroll-inner-arrow
+{
+    color: white;
+}
+.home-main-part-scroll-text
+
+{
+    color: white;
+}
+
+.home-main-part-scroll-outer
+{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-main-part-scroll-inner-line
+{
+    height: 5vh;
+    width: 0.2vh;
+    background-color: white;
+}
+
+.home-main-button
+{
+    height: 6vh;
+    width: 8vw;
+    border-radius: 1vh;
+    border: 0px;
+    font-size: 0.9rem;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    border: white solid 2px;
+    color: white;
+    background-color: #000000;
+
+
+}
+
+.home-main-button:hover
+{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+    font-family: 'Barlow', sans-serif;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    
+}
+
+
+.home-main-part-scroll-text
+{
+    font-family: 'Barlow', sans-serif;
+}
+.home-main-part-scroll-inner-line
+{
+    height: 20px;
+    width: 2px;
+    background-color: white;
+    color: white;
+    border-radius: 1vh;
+    animation: increase 2s infinite ease-in-out;
+}
+
+
+@keyframes increase
+{
+    0% {
+        height: 20px;
+    }
+    50% {
+        height: 35px;
+    }
+    100% {
+        height: 20px;
+    }
+}
+
+
+
+
+.home-main-about-section
+{
+  
+    background-size: contain;
+    height: 110vh;
+    width: 100vw;
+    background-color: #ffffff;
+    padding: 15vh 10vh 15vh 10vh;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+
+}
+
+
+.home-main-about-section-one
+{
+    height: 100%;
+    width: 50%;
+}
+
+.home-main-about-section-two
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+.home-main-about-section-two-border
+{
+    position: relative;
+    height: 70vh;
+    width: 40vh;
+    display: inline;
+    top: -5vh;
+    left: 29vh;
+    background-size: 35vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(http://askproject.net/cynex/wp-content/uploads/sites/28/2021/09/office-worker-with-mobile-phone-and-computer-in-da-ZRR2G5H.jpg);
+}
+
+
+.home-main-about-section-two-img
+{
+    display: inline;
+    position: absolute;
+    height: 70vh;
+    width: 40vh;
+    background-image: url(http://askproject.net/cynex/wp-content/uploads/sites/28/2021/09/female-computer-programmer-at-work-9VRBN2U-2.jpg);
+    background-size: 35vh;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+
+.card-one-section-2-button-inner
+{
+    padding: 1% 2% 1% 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    border: 0px;
+    height: 7vh;
+    width: 10vw;
+    font-size: 1rem;
+    background-color: #ffffff;
+
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-family: 'Barlow', sans-serif;
+    transition: 0.3s ease-in-out;
+
+}
+
+.card-one-section-2-button-inner:hover
+{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+    border: 1px solid rgb(255, 255, 255);
+   
+    color: white;
+
+}
+
+.card-one-section-2-button-inner >.CgArrowRight-ourtraining
+{
+   font-size: 1.3rem;
+}
+
+
+
+
+.home-main-about-section-one-heading
+{
+    width: 100%;
+    padding-top: 5vh;
+    padding-left: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-main-about-section-one-heading-text
+{
+    display: contents;
+    height: 15vh;
+    width: 100%;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.home-main-about-section-one-text-wrapper
+{
+    height: fit-content !important;
+    width: fit-content !important;
+    display: inline-block;
+
+}
+
+.home-main-about-section-one-text
+{
+    height: 55vh;
+    width: 90%;
+    display: flex;
+    padding: 5vh 10vh 0vh 10vh;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    color: #cecece;
+    word-spacing: 0.05rem;
+    line-height: 25px;
+    flex-direction: column;
+    justify-content: space-between;
+    letter-spacing: 0.03rem;
+    text-align: justify;
+}
+
+
+
+
+.home-aboutus-area-link-button
+{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 10px;
+    height: 7vh;
+    width: 11vw;
+    font-size: 1rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+    font-family: 'Barlow', sans-serif;
+    transition: 0.3s linear;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+
+.home-aboutus-area-link-button:hover
+{
+
+    background-color: #ffffff;
+    transform: scale(1.1);
+    transition: 0.3s linear;
+    color: rgb(0, 0, 0);
+}
+
+.home-aboutus-area-link
+{
+    text-decoration: none;
+
+}
+.CgArrowRight-aboutus
+{
+    position: relative;
+    height: 1.3vw;
+    width: 2vw;
+    transition: 0.1s linear;
+    top: 0.1vh;
+
+}
+
+
+
+.home-aboutus-area-link-button:hover .CgArrowRight-aboutus
+{
+    transition: 0.1s linear;
+    transform: scale(1.3);
+}
+
+
+
+
+.home-quotes-section
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh 0vh 5vh 0vh;
+    height: 70vh;
+    width: 100vw;
+    font-weight: 600;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.home-quotes-section-icon
+{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 7rem;
+    color: rgb(255, 255, 255);
+    align-items: center;
+
+}
+
+
+
+.home-quotes-section-text
+{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    color: transparent;
+    padding-top: 2vw;
+    font-size: 2.5rem;
+    padding: 0vh 15vh 0vh 15vh;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+   
+
+}
+
+.main-who-we-are-wrapper
+{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.main-who-we-are
+{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: 300;
+    background-color: white;
+}
+
+.main-few-words-about
+{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    font-size: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.main-container-whychooseus
+{
+    height: 70vh;
+    width: 100vw;
+   
+}
+
+.main-container-whychooseus-part-heading
+{
+    height: fit-content;
+    width: 100vw;
+    font-size: 8rem;
+    text-align: center;
+    -webkit-text-stroke: 0.6vh rgba(128, 128, 128, 0.791);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+.main-container-whychooseus-part-heading-text
+{
+    width: 100vw;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.9rem;
+    letter-spacing: 0.1rem;
+    padding: 7vh 20vh 5vh 20vh;
+    font-weight: 400;
+}
+
+.main-container-whychooseus-container
+{
+    height: 10vh;
+    width: 100vw;
+    padding: 0vh 10vh 0vh 10vh;
+    display:  flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-container-whychooseus-container-part
+{
+    height: fit-content;
+    width: 25%;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.home-main-container-main-testimonial
+{
+    height: 100vh;
+    width: 100%;
+    padding: 0px 50px 0px 50px;
+   
+}
+
+.home-main-container-main-our-testimonial
+{
+    height: 25vh;
+    width: 100%;
+    text-align: center;
+    font-size: 8rem;
+    -webkit-text-stroke: 0.6vh rgba(128, 128, 128, 0.791);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+.home-main-container-main-testimonial-heading
+{
+    height: 5vh;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.div-main-container-countup
+{
+    padding: 0% 5% 0% 5%;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    background-color: #000000;
+    padding-bottom: 20vh;
+}
+
+.div-main-container-countup-part
+{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+
+.div-main-container-countup-part-icon
+{
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: #4482ff ;
+
+}
+
+.div-main-container-countup-part-count
+{
+    height:  20%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.div-main-container-countup-part-text
+{
+    display: flex;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.main-container-test
+{
+    height: 20vh;
+    width: 100vw;
+}

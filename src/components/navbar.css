@@ -1,0 +1,129 @@
+.outer-main-container-navbar-strip
+{
+    height: 3vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+.outer-main-container-navbar
+{
+    position: absolute;
+    top: 3vh;
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+
+}
+.outer-main-container-navbar-logo
+{
+    height: 10vh;
+    width: 10vw;
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./images/logo.png);
+}
+.outer-main-container-navbar-logo-outer
+{
+    height: 10vh;
+    width: 25vw;
+    display: flex;
+    padding-left: 10vh;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.outer-main-container-navbar-links-outer
+{
+    height: 10vh;
+    width: 75vw;
+    display: flex;
+    align-items: center;
+}
+
+.outer-main-container-navbar-links-inner
+{
+    height: 7vh;
+    width: 50vw;
+    padding-right: 2vw;
+    padding-left: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+}
+
+.navbar-items
+{
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white !important;
+}
+
+.slider
+{
+    display:inline-block;
+    height: 2px;
+    width: 0vw;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    transition: width .5s;
+
+}
+.wrapper
+{
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.navbar-items-links
+{
+    height: 4vh;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+.wrapper:hover .slider 
+{
+    width: 4.5vw;
+}
+
+
+
+.active 
+{
+    all: revert;
+    transform: scale(1.1);
+    color: white;
+    text-decoration: none;
+}
+
+.not-active
+{
+    text-decoration: none;
+    color: white;
+}
+
